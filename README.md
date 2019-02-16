@@ -6,12 +6,13 @@ Live [here](https://rollspelssallskapet.github.io/rolls-web/), old version [here
 
 ## Todo
 
-* Update information on site.
-* ~~Break out lemonade parts from CSS and load it using CDN instead.~~
-* Tidy up CSS.
 * Add alpha to favicon
 * Test on all screens.
-* Change to google fonts
+* English translation of site
+* ~~Break out lemonade parts from CSS and load it using CDN instead.~~
+* ~~Tidy up CSS.~~
+* ~~Change to google fonts~~
+* ~~Update information on site.~~
 
 ## .tidyrc
 
@@ -20,6 +21,6 @@ indent: yes
 indent-spaces: 2
 wrap: 0
 tidy-mark: no
-clean: yes
+clean: no 
 drop-empty-elements: no
 ```
