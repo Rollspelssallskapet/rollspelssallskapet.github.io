@@ -15,11 +15,11 @@ Live [here](https://rollspelssallskapet.github.io/rolls-web/), old version [here
 
 ## .tidyrc
 
-```conf
+```
 indent: yes
 indent-spaces: 2
 wrap: 0
 tidy-mark: no
 clean: yes
 drop-empty-elements: no
-´´´
+```
