@@ -135,6 +135,11 @@ a:not(.navigation-arrow):hover::before {
   margin: 0.25em;
 }
 
+#img-d20 {
+  margin: 2em auto;
+  max-height: 15em;
+}
+
 .jumbotron {
   display: block;
 }
