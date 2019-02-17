@@ -140,10 +140,9 @@ a:not(.navigation-arrow):hover::before {
 }
 
 .logo {
-  height: 25vh;
-  width: 100%;
-  max-width: 20m;
   height: auto;
+  max-width: 20em;
+  width: 100%;
 }
 
 .navigation-arrow {
