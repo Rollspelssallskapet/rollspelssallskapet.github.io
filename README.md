@@ -6,13 +6,13 @@ Live [here](https://rollspelssallskapet.github.io/rolls-web/), old version [here
 
 ## Todo
 
-* Add alpha to favicon
 * Test on all screens.
 * English translation of site
 * ~~Break out lemonade parts from CSS and load it using CDN instead.~~
 * ~~Tidy up CSS.~~
 * ~~Change to google fonts~~
 * ~~Update information on site.~~
+* ~~Add alpha to favicon~~
 
 ## .tidyrc
 
