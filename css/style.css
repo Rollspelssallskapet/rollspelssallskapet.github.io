@@ -178,6 +178,7 @@ a:not(.navigation-arrow):hover::before {
 }
 
 .text-w-bg {
-  background-color: #ddd;
+  background-color: #333;
+  color: #ddd;
   padding: 1em 2em;
 }
