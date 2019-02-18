@@ -5,8 +5,7 @@ body {
 }
 
 body {
-  background-color: #999;
-  color: #333;
+  background-color: #bbb;
   font-family: "Bree Serif", serif;
   font-size: 20px;
 }
@@ -22,7 +21,7 @@ h5 {
 h2 {
   background-color: #333;
   border: 0.125em solid #333;
-  color: #3ff;
+  color: #f33;
   letter-spacing: 0.125em;
   padding: 0.25em 0.25em;
 }
@@ -45,7 +44,7 @@ img {
 }
 
 a {
-  color: #3ff;
+  color: #f33;
   position: relative;
   text-decoration: none;
 }
@@ -78,7 +77,7 @@ a:not(.navigation-arrow)::before {
   height: 0.1em;
   bottom: 0;
   left: 0;
-  background-color: #3ff;
+  background-color: #f33;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
@@ -95,8 +94,8 @@ a:not(.navigation-arrow):hover::before {
 }
 
 .board {
-  background-color: #333;
-  color: #f60;
+  background-color: #bbb;
+  color: #555;
 }
 
 .board-members {
@@ -106,24 +105,15 @@ a:not(.navigation-arrow):hover::before {
 }
 
 .board-members h3 {
-  color: #3ff;
+  color: #333;
 }
 
 .footer {
   background-color: #333;
-  color: #3ff;
+  color: #f33;
   font-family: "Julius Sans One", sans-serif;
   margin: 0;
   text-align: center;
-}
-
-.footer-img {
-  background-image: url("../img/grey-bg.png");
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  height: 15em;
-  margin-bottom: 0;
-  max-width: 100%;
 }
 
 .icon {
@@ -132,7 +122,7 @@ a:not(.navigation-arrow):hover::before {
 }
 
 .icon a {
-  color: #3ff;
+  color: #333;
   margin: 0.25em;
 }
 
@@ -188,6 +178,6 @@ a:not(.navigation-arrow):hover::before {
 }
 
 .text-w-bg {
-  background-color: #3ff;
+  background-color: #ddd;
   padding: 1em 2em;
 }
