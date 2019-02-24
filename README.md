@@ -6,8 +6,8 @@ Live [here](https://rollspelssallskapet.github.io/rolls-web/), old version [here
 
 ## Todo
 
-* Test on all screens.
 * English translation of site
+* ~~Test on all screens.~~
 * ~~Break out lemonade parts from CSS and load it using CDN instead.~~
 * ~~Tidy up CSS.~~
 * ~~Change to google fonts~~
