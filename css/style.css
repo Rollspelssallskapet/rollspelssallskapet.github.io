@@ -182,10 +182,12 @@ a:not(.navigation-arrow):hover::before {
   color: #ddd;
   padding: 1em 2em;
 }
-
-.partners div {
-  width: 25%;
-}
 .partners img {
   max-width: 80px
+}
+
+@media only screen and (min-width: 425px) {
+  .partners div {
+    width: 25%;
+  }
 }
