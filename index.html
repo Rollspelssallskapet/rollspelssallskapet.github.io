@@ -31,6 +31,12 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <div class="navcontainer right">
+      <ul class="navlist right">
+        <li><a href="#" class="active">SV</a></li>
+        <li><a href="en_index.html">ENG</a></li>
+      </ul>
+    </div>
     <div class="frame jumbotron">
       <a name="top" id="top"></a>
       <div class="frame">
@@ -38,30 +44,33 @@
           <img src="img/logo-complete2.svg" alt="Rollspelssällskapets logotyp" class="logo">
         </h1>
       </div>
-      <div class="navcontainer">
-          <ul class="navlist">
-            <li>
-              <a href="index.html#intro">OM OSS</a>
+      <div class="navcontainer" role="menu">
+          <ul class="navlist" role="group">
+            <li role="menuitem">
+              <a href="index.html#intro">Om oss</a>
             </li>
-            <li>
-              <a href="index.html#location">HITTA HIT</a>
+            <li role="menuitem">
+              <a href="index.html#adventure">Äventyr</a>
             </li>
-            <li>
-              <a href="index.html#adventure">ÄVENTYR</a>
+            <!-- <li role="menuitem">
+              <a href="rollstice">Events</a>
+            </li> -->
+            <li role="menuitem">
+              <a href="index.html#location">Hitta hit</a>
             </li>
-            <li>
-              <a href="index.html#base">VÄRDEGRUND</a>
+            <li role="menuitem">
+              <a href="index.html#base">Värdegrund</a>
             </li>
-            <li>
-              <a href="index.html#kontakt">KONTAKT</a>
-            </li><!-- <li><a href="index.html#kontakt">STREAMING</a></li> -->
+            <li role="menuitem">
+              <a href="index.html#kontakt">Kontakt</a>
+            </li>
           </ul>
         </div>
     </div>
     <div class="section-header">
       <a name="intro" id="intro"></a>
-      <h2>
-        OM OSS <a href="index.html#top"><i class="navigation-arrow fas fa-arrow-up"></i></a>
+      <h2 class="section-headline">
+        Om oss <a href="index.html#top" aria-label="Gå tillbaka till toppen av sidan"><i class="navigation-arrow fas fa-arrow-up"></i></a>
       </h2>
     </div>
     <hr>
@@ -84,7 +93,7 @@
         </p>
       </div>
       <div class="bit-2">
-        <img src="img/d20.svg" id="img-d20" alt="D20">
+        <img src="img/d20.svg" id="img-d20" alt="Enkel ritning av en tjugosidig tärning" aria-hidden="true">
       </div>
       <div class="bit-3">
         <h4>
@@ -148,34 +157,41 @@
     <div class="section-header">
       <a name="adventure" id="adventure"></a>
       <h2>
-        ÄVENTYR <a href="index.html#top"><i class="navigation-arrow fas fa-arrow-up"></i></a>
+        Äventyr <a href="index.html#top" aria-label="Gå tillbaka till toppen av sidan"><i class="navigation-arrow fas fa-arrow-up"></i></a>
       </h2>
     </div>
     <hr>
     <div class="frame info">
-      <h3>
-        Monday Night Adventure Time!
-      </h3>
-      <h5>
-        TID: Måndagar kl 17.00, spelstart 18.00
-      </h5>
-      <p>
-        Öppen rollspelskväll annordnas varje måndag.
-      </p>
-      <p>
-        Varmt välkomna mellan 17-18 för att skapa din karaktär eller snacka rollspel inför spelstart kl 18.00!
-      </p>
-      <p>
-        Du kan alltid hitta våra aktuella vecko-kampanjer i vår <a href="https://www.facebook.com/groups/1916693038608754/" target="_blank" rel="noopener">Facebook grupp</a>.
-      </p>
-      <p>
-        Alla är välkomna!
-      </p>
+      <div class="bit-1">
+        <h3>
+          Monday Night Adventure Time!
+        </h3>
+        <h5>
+          TID: Måndagar kl 17.00, spelstart 18.00
+        </h5>
+        <p></p>
+        <h3>
+          Friday Night Adventure Time!
+        </h3>
+        <h5>
+          TID: Fredagar på jämna veckor, kl 17.00, spelstart 18.00
+        </h5>
+        <p></p>
+        <p>
+          Bägge är öppen rollspelskväll där alla intresserade är varmt välkomna mellan 17-18 för att skapa din karaktär eller snacka rollspel inför spelstart kl 18.00!
+        </p>
+        <p>
+          Du hittar våra aktuella kampanjer och one-shots i vår <a href="https://www.facebook.com/groups/1916693038608754/" target="_blank" rel="noopener">Facebook grupp</a>.
+        </p>
+        <p>
+          Alla är välkomna!
+        </p>
+      </div>
     </div>
     <div class="section-header">
       <a name="location" id="location"></a>
       <h2>
-        HITTA HIT <a href="index.html#top"><i class="navigation-arrow fas fa-arrow-up"></i></a>
+        Hitta hit <a href="index.html#top" aria-label="Gå tillbaka till toppen av sidan"><i class="navigation-arrow fas fa-arrow-up"></i></a>
       </h2>
     </div>
     <hr>
@@ -212,13 +228,13 @@
         </p>
       </div>
       <div class="bit-2">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2253.902095527733!2d13.026652221482045!3d55.60371755878773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a3deedae1e15%3A0x50d012f932925909!2sSpelens+Hus!5e0!3m2!1sen!2sse!4v1550404751968" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2253.902095527733!2d13.026652221482045!3d55.60371755878773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a3deedae1e15%3A0x50d012f932925909!2sSpelens+Hus!5e0!3m2!1sen!2sse!4v1550404751968" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen title="Google Maps with focus over Spelens Hus in Malmö"></iframe>
       </div>
     </div>
     <div class="section-header">
       <a name="base" id="base"></a>
       <h2>
-        VÄRDEGRUND <a href="index.html#top"><i class="navigation-arrow fas fa-arrow-up"></i></a>
+        Värdegrund <a href="index.html#top" aria-label="Gå tillbaka till toppen av sidan"><i class="navigation-arrow fas fa-arrow-up"></i></a>
       </h2>
       <hr>
     </div>
@@ -273,11 +289,11 @@
         </ul>
       </div>
     </div>
-    <img src="img/dices.png" alt="rollspelstärningar">
+    <img src="img/dices.png" alt="Färgglada tjugosidiga tärningar" aria-hidden="true">
     <div class="section-header">
       <a name="kontakt" id="kontakt"></a>
       <h2>
-        KONTAKT <a href="index.html#top"><i class="navigation-arrow fas fa-arrow-up"></i></a>
+        Kontakt <a href="index.html#top" aria-label="Gå tillbaka till toppen av sidan"><i class="navigation-arrow fas fa-arrow-up"></i></a>
       </h2>
       <hr>
     </div>
@@ -294,18 +310,20 @@
         </p>
       </div>
       <div class="bit-2 icon">
-        <a href="mailto:kontakt@rollspelssallskapet.se"><i class="fas fa-envelope-square"></i></a> <a href="https://www.facebook.com/groups/1916693038608754/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a> <a href="https://discord.gg/6BeQHkM" target="_blank" rel="noopener"><i class="fab fa-discord"></i></a>
+        <a href="mailto:kontakt@rollspelssallskapet.se"><i class="fas fa-envelope-square" alt="Maila till länk till Rollspelssällskapet"></i></a>
+        <a href="https://www.facebook.com/groups/1916693038608754/" target="_blank" rel="noopener"><i class="fab fa-facebook" alt="Länk till Rollspelssällskapets facebook-sida"></i></a>
+        <a href="https://discord.gg/6BeQHkM" target="_blank" rel="noopener"><i class="fab fa-discord" alt="Länk till Rollspelssällskapet Discord sida"></i></a>
       </div>
       <div class="bit-1 partners">
         <h4>Våra sammarbetspartners</h4>
         <div class="bit-12">
           <a href="https://www.spelenshus.se/" target="_blank" rel="noopener">
-            <img src="img/spelens_hus_logotyp.png" alt="Spelens Hus logotyp">
+            <img src="img/spelens_hus_logotyp.png" alt="Spelens Hus logotyp - Spelens Hus hemsida">
           </a>
         </div>
         <div class="bit-12">
           <a href="https://sverok.se/" target="_blank" rel="noopener">
-            <img src="img/logotyp-sverok.png" alt="Sverok logotyp">
+            <img src="img/logotyp-sverok.png" alt="Sverok logotyp - Sveroks Hemsida">
           </a>
         </div>
 

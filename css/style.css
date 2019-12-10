@@ -69,7 +69,14 @@ ul {
 li {
   margin-bottom: 0.5em;
 }
-
+.text-align-center {
+  text-align: center;
+}
+.hide {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
 a:not(.navigation-arrow)::before {
   content: "";
   position: absolute;
@@ -160,6 +167,10 @@ a:not(.navigation-arrow):hover::before {
   width: 100%;
 }
 
+.navlist.right {
+  text-align: right;
+}
+
 .navlist li {
   display: inline;
   font-size: 1.8em;
@@ -170,6 +181,15 @@ a:not(.navigation-arrow):hover::before {
 
 .navlist a {
   color: #333;
+}
+.navlist a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.navcontainer ul.navlist li a,
+.section-header .section-headline {
+  text-transform: uppercase;
 }
 
 .section-header {
@@ -184,6 +204,13 @@ a:not(.navigation-arrow):hover::before {
 }
 .partners img {
   max-width: 80px
+}
+.rollstice-partners img {
+  max-width: 80px;
+  display: inline-block;
+}
+.winter-rollstice-heading {
+  font-size: 1.40em;
 }
 
 @media only screen and (max-width: 425px) {
