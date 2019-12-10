@@ -208,6 +208,7 @@ a:not(.navigation-arrow):hover::before {
 .rollstice-partners img {
   max-width: 80px;
   display: inline-block;
+  vertical-align: middle;
 }
 .winter-rollstice-heading {
   font-size: 1.40em;
