@@ -213,6 +213,9 @@ a:not(.navigation-arrow):hover::before {
 .winter-rollstice-heading {
   font-size: 1.40em;
 }
+hr.in-text-line {
+  border-color: #777;
+}
 
 @media only screen and (max-width: 425px) {
   .partners div {
