@@ -6,7 +6,7 @@ Live [here](https://rollspelssallskapet.github.io/rolls-web/), old version [here
 
 ## Todo
 
-* English translation of site
+* ~~English translation of site~~
 * ~~Test on all screens.~~
 * ~~Break out lemonade parts from CSS and load it using CDN instead.~~
 * ~~Tidy up CSS.~~
@@ -21,6 +21,6 @@ indent: yes
 indent-spaces: 2
 wrap: 0
 tidy-mark: no
-clean: no 
+clean: no
 drop-empty-elements: no
 ```
