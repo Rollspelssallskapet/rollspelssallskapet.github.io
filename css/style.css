@@ -49,7 +49,6 @@ a {
   text-decoration: none;
 }
 
-
 hr {
   border: 0;
   border-top: 0.2em solid #f60;
@@ -203,7 +202,7 @@ a:not(.navigation-arrow):hover::before {
   padding: 1em 2em;
 }
 .partners img {
-  max-width: 80px
+  max-width: 80px;
 }
 .rollstice-partners img {
   max-width: 80px;
@@ -211,7 +210,7 @@ a:not(.navigation-arrow):hover::before {
   vertical-align: middle;
 }
 .winter-rollstice-heading {
-  font-size: 1.40em;
+  font-size: 1.4em;
 }
 hr.in-text-line {
   border-color: #777;
@@ -230,6 +229,14 @@ hr.in-text-line {
 }
 .margin-bottom-large {
   margin-bottom: 15px;
+}
+.button {
+  display: inline-block;
+  margin: 15px 0;
+  background-color: #f33;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 425px) {
