@@ -76,7 +76,7 @@ li {
   margin: 0;
   padding: 0;
 }
-a:not(.navigation-arrow)::before {
+a:not(.navigation-arrow):not(.logo)::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -92,13 +92,12 @@ a:not(.navigation-arrow)::before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-a:not(.navigation-arrow):hover::before {
+a:not(.navigation-arrow):not(.logo):hover::before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
 }
-
 .board {
   background-color: #bbb;
   color: #555;
